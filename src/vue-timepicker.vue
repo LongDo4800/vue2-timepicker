@@ -2254,13 +2254,6 @@ export default {
   box-sizing: border-box;
 }
 
-.vue__time-picker input.display-time {
-  border: 1px solid #d2d2d2;
-  width: 10em;
-  height: 2.2em;
-  font-size: 1em;
-}
-
 .vue__time-picker input.has-custom-icon {
   padding-left: 1.8em;
 }
