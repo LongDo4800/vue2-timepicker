@@ -52,6 +52,7 @@ export default {
     tabindex: { type: [ Number, String ], default: 0 },
     inputWidth: { type: String },
     autocomplete: { type: String, default: 'off' },
+    inputOptions: { type: Object, default: () => ({})},
 
     hourLabel: { type: String },
     minuteLabel: { type: String },
@@ -2056,6 +2057,7 @@ export default {
          :disabled="disabled"
          :readonly="!manualInput"
          :autocomplete="autocomplete"
+         v-bind="inputOptions"
          @focus="onFocus"
          @change="onChange"
          @blur="debounceBlur(); blurEvent()"
@@ -2088,7 +2090,6 @@ export default {
       <template v-if="!advancedKeyboard">
         <template v-for="column in columnsSequence">
           <ul v-if="column === 'hour'" :key="column" class="hours" @scroll="keepFocusing">
-            <li class="hint" v-text="hourLabelText"></li>
             <template v-for="(hr, hIndex) in hours">
               <li v-if="!opts.hideDisabledHours || (opts.hideDisabledHours && !isDisabled('hour', hr))"
                   :key="hIndex"
@@ -2100,7 +2101,6 @@ export default {
             </template>
           </ul>
           <ul v-if="column === 'minute'" :key="column" class="minutes" @scroll="keepFocusing">
-            <li class="hint" v-text="minuteLabelText"></li>
             <template v-for="(m, mIndex) in minutes">
               <li v-if="!opts.hideDisabledMinutes || (opts.hideDisabledMinutes && !isDisabled('minute', m))"
                   :key="mIndex"
@@ -2112,7 +2112,6 @@ export default {
             </template>
           </ul>
           <ul v-if="column === 'second'" :key="column" class="seconds" @scroll="keepFocusing">
-            <li class="hint" v-text="secondLabelText"></li>
             <template v-for="(s, sIndex) in seconds">
               <li v-if="!opts.hideDisabledSeconds || (opts.hideDisabledSeconds && !isDisabled('second', s))"
                   :key="sIndex"
@@ -2124,7 +2123,6 @@ export default {
             </template>
           </ul>
           <ul v-if="column === 'apm'" :key="column" class="apms" @scroll="keepFocusing">
-            <li class="hint" v-text="apmLabelText"></li>
             <template v-for="(a, aIndex) in apms">
               <li v-if="!opts.hideDisabledHours || (opts.hideDisabledHours && !isDisabled('apm', a))"
                   :key="aIndex"
@@ -2378,7 +2376,7 @@ export default {
   left: 0;
   background: #fff;
   box-shadow: 0 1px 6px rgba(0,0,0,0.15);
-  width: 10em;
+  width: 100%;
   height: 10em;
   font-weight: normal;
 }
@@ -2416,7 +2414,7 @@ export default {
 .vue__time-picker .dropdown ul,
 .vue__time-picker-dropdown ul {
   padding: 0;
-  margin: 0;
+  margin: 1px;
   list-style: none;
   outline: 0;
 
