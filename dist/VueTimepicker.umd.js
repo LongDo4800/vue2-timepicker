@@ -1205,6 +1205,17 @@ if (DESCRIPTORS && MISSED_STICKY) {
 
 /***/ }),
 
+/***/ "2cd7":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_2c282ef8_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("7eca");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_2c282ef8_prod_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_2c282ef8_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
 /***/ "2d00":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3047,6 +3058,13 @@ module.exports = Object.create || function create(O, Properties) {
 
 /***/ }),
 
+/***/ "7eca":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "825a":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4065,17 +4083,6 @@ module.exports = function (O, options) {
 
 /***/ }),
 
-/***/ "aba4":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_1a50282c_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("bdce");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_1a50282c_prod_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_vue_timepicker_vue_vue_type_style_index_0_id_1a50282c_prod_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "ac1f":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4503,13 +4510,6 @@ module.exports = !fails(function () {
   return error.stack !== 7;
 });
 
-
-/***/ }),
-
-/***/ "bdce":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -6255,7 +6255,7 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3dd913ca-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-timepicker.vue?vue&type=template&id=1a50282c&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3dd913ca-vue-loader-template"}!./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/vue-loader/lib/loaders/templateLoader.js??ref--6!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/vue-timepicker.vue?vue&type=template&id=2c282ef8&
 
 
 var render = function render() {
@@ -6782,7 +6782,7 @@ var render = function render() {
 
 var staticRenderFns = [];
 
-// CONCATENATED MODULE: ./src/vue-timepicker.vue?vue&type=template&id=1a50282c&
+// CONCATENATED MODULE: ./src/vue-timepicker.vue?vue&type=template&id=2c282ef8&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.js
 var es_symbol = __webpack_require__("a4d3");
@@ -9244,23 +9244,21 @@ var DEFAULT_OPTIONS = {
           start = _ref$start === void 0 ? 0 : _ref$start,
           _ref$end = _ref.end,
           end = _ref$end === void 0 ? 0 : _ref$end;
-      this.$nextTick(function () {
-        _this19.setInputSelectionRange(start, end);
+      this.$nextTick(function () {// this.setInputSelectionRange(start, end)
       });
       window.clearTimeout(this.selectionTimer);
       this.selectionTimer = window.setTimeout(function () {
         window.clearTimeout(_this19.selectionTimer); // Double-check selection for 12hr format
 
-        if (_this19.$refs.input && (_this19.$refs.input.selectionStart !== start || _this19.$refs.input.selectionEnd !== end)) {
-          _this19.setInputSelectionRange(start, end);
+        if (_this19.$refs.input && (_this19.$refs.input.selectionStart !== start || _this19.$refs.input.selectionEnd !== end)) {// this.setInputSelectionRange(start, end)
         }
       }, 30);
     },
-    setInputSelectionRange: function setInputSelectionRange(start, end) {
-      if (this.$refs && this.$refs.input) {
-        this.$refs.input.setSelectionRange(start, end);
-      }
-    },
+    // setInputSelectionRange (start, end) {
+    //   if (this.$refs && this.$refs.input) {
+    //     this.$refs.input.setSelectionRange(start, end)
+    //   }
+    // },
     getCurrentTokenChunk: function getCurrentTokenChunk() {
       return this.getNearestChunkByPos(this.$refs.input && this.$refs.input.selectionStart || 0);
     },
@@ -9528,8 +9526,8 @@ var DEFAULT_OPTIONS = {
 });
 // CONCATENATED MODULE: ./src/vue-timepicker.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_vue_timepickervue_type_script_lang_js_ = (vue_timepickervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/vue-timepicker.vue?vue&type=style&index=0&id=1a50282c&prod&lang=css&
-var vue_timepickervue_type_style_index_0_id_1a50282c_prod_lang_css_ = __webpack_require__("aba4");
+// EXTERNAL MODULE: ./src/vue-timepicker.vue?vue&type=style&index=0&id=2c282ef8&prod&lang=css&
+var vue_timepickervue_type_style_index_0_id_2c282ef8_prod_lang_css_ = __webpack_require__("2cd7");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */

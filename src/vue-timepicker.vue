@@ -1806,23 +1806,23 @@ export default {
 
     debounceSetInputSelection ({start = 0, end = 0 }) {
       this.$nextTick(() => {
-        this.setInputSelectionRange(start, end)
+        // this.setInputSelectionRange(start, end)
       })
       window.clearTimeout(this.selectionTimer)
       this.selectionTimer = window.setTimeout(() => {
         window.clearTimeout(this.selectionTimer)
         // Double-check selection for 12hr format
         if (this.$refs.input && (this.$refs.input.selectionStart !== start || this.$refs.input.selectionEnd !== end)) {
-          this.setInputSelectionRange(start, end)
+          // this.setInputSelectionRange(start, end)
         }
       }, 30)
     },
 
-    setInputSelectionRange (start, end) {
-      if (this.$refs && this.$refs.input) {
-        this.$refs.input.setSelectionRange(start, end)
-      }
-    },
+    // setInputSelectionRange (start, end) {
+    //   if (this.$refs && this.$refs.input) {
+    //     this.$refs.input.setSelectionRange(start, end)
+    //   }
+    // },
 
     getCurrentTokenChunk () {
       return this.getNearestChunkByPos((this.$refs.input && this.$refs.input.selectionStart) || 0)
