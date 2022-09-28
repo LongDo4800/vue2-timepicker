@@ -2263,11 +2263,6 @@ export default {
   outline-color: #cc0033;
 }
 
-.vue__time-picker input.display-time:disabled,
-.vue__time-picker input.display-time.disabled {
-  color: #d2d2d2;
-}
-
 .vue__time-picker .controls {
   position: absolute;
   top: 0;
